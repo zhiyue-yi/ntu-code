@@ -1,0 +1,30 @@
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <style>
+      .content {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        text-align: left;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="title" class="content">Please select your meal.</div>
+    <div id="orderConfirm" class="content"></div>
+    <form id="options" class="content">
+      <input type="radio" name="choice" value="healthy" checked /> Healthy<br />
+      <input type="radio" name="choice" value="normal" /> Normal<br />
+      <input type="radio" name="choice" value="value" /> Value<br />
+      <input type="radio" name="choice" value="vegan" /> Vegan<br />
+      <input type="radio" name="choice" value="veggie" /> Veggie<br />
+
+      <input type="submit" value="Submit" />
+
+      <script src="scripts.js"></script>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #eaeaea;
+  overflow: scroll;
+}
+
+body {
+  background-image:  url('assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 60px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  width: 80px;
+  min-width: 800px;
+  min-height: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+
+.fruit-table {
+  width: 100%;
+
+}
+
+.receipt-table {
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid black;
+}
+
+.receipt-table .total-row {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.receipt-table .total-col {
+  border-top: double;
+}
